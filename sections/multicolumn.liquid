@@ -96,11 +96,6 @@
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
-                {%- if block.settings.link != blank -%}
-                  <a href="{{ block.settings.link }}" class="button">{{ block.settings.linktext }}</a>
-              {%- elsif -%}
-
-                {% endif %}%}
                 {%- if block.settings.link_label != blank -%}
                   <a class="link animate-arrow" {% if block.settings.link == blank %}role="link"aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
                   </a>
@@ -164,17 +159,6 @@
         "label": "t:sections.multicolumn.settings.title.label"
       },
       {
-        "id": "link",
-        "type": "url",
-        "label": "Button link"
-      },
-      {
-        "id": "linktext",
-        "type": "text",
-        "label": "Button text",
-        "default": "Sao chép mã"
-      },
-      {
         "type": "select",
         "id": "heading_size",
         "options": [
@@ -191,7 +175,8 @@
         ],
         "default": "h1",
         "label": "t:sections.all.heading_size.label"
-      }, {
+      },
+      {
         "type": "select",
         "id": "image_width",
         "options": [
@@ -208,7 +193,8 @@
         ],
         "default": "full",
         "label": "t:sections.multicolumn.settings.image_width.label"
-      }, {
+      },
+      {
         "type": "select",
         "id": "image_ratio",
         "options": [
