@@ -73,27 +73,67 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "9c9277c0-d784-4729-ad4f-0919cf680aae": {
+      "type": "multicolumn",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--17392169517341__9c9277c0-d784-4729-ad4f-0919cf680aae-167340474487f0411d-0": {
+          "type": "column",
           "settings": {
-            "heading": "<p>ĐẶC QUYỀN CỦA BẠN HÔM NAY<\/p>",
-            "heading_size": "h2"
+            "title": "Hỗ trợ vận chuyển",
+            "text": "<p>Áp mã để nhận ngay ưu đãi giảm giá vận chuyển tại Degrey<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17392169517341__9c9277c0-d784-4729-ad4f-0919cf680aae-167340474487f0411d-1": {
+          "type": "column",
+          "settings": {
+            "title": "Hà Nội Freeship",
+            "text": "<p>Degrey dành tặng Hà Nội mã freeship 0đ (số lượng có hạn)<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17392169517341__9c9277c0-d784-4729-ad4f-0919cf680aae-167340474487f0411d-2": {
+          "type": "column",
+          "settings": {
+            "title": "Tặng 125.000đ",
+            "text": "<p>Áp dụng đặc biệt cho đơn hàng từ 2,5 triệu đồng.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "666e0cf1-0973-4b70-96d5-7410b2889152": {
+          "type": "column",
+          "settings": {
+            "title": "Khuyến mãi đến 10%",
+            "text": "<p>Mã giảm 10% cho hoá đơn mua hàng trên 5 triệu đồng<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading"
+        "template--17392169517341__9c9277c0-d784-4729-ad4f-0919cf680aae-167340474487f0411d-0",
+        "template--17392169517341__9c9277c0-d784-4729-ad4f-0919cf680aae-167340474487f0411d-1",
+        "template--17392169517341__9c9277c0-d784-4729-ad4f-0919cf680aae-167340474487f0411d-2",
+        "666e0cf1-0973-4b70-96d5-7410b2889152"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "title": "ĐẶC QUYỀN CHO BẠN HÔM NAY",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -231,7 +271,7 @@
   },
   "order": [
     "7df1040c-3bd4-4074-9876-02788aa0bea0",
-    "rich_text",
+    "9c9277c0-d784-4729-ad4f-0919cf680aae",
     "featured_collection",
     "collage",
     "video",

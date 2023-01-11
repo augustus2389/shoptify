@@ -66,7 +66,8 @@
 }
 
 .multicolumn.background-primary .multicolumn-card {
-  background: rgb(var(--color-background)) linear-gradient(rgba(var(--color-foreground), 0.04), rgba(var(--color-foreground), 0.04));
+  background: white;
+  border-radius: 25%;
 }
 
 .multicolumn-list h3 {
@@ -120,6 +121,8 @@
   .multicolumn-list__item,
   .grid--4-col-desktop .multicolumn-list__item {
     padding-bottom: 0;
+    border: 2px solid gray;
+    border-radius: 7px;
   }
 
   .background-none .grid--2-col-tablet .multicolumn-list__item {
@@ -133,7 +136,7 @@
 }
 
 .multicolumn-card__info {
-  padding: 2.5rem;
+  padding: 1.5rem;
 }
 
 .background-none .multicolumn-card__info {
