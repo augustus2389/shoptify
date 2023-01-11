@@ -1,51 +1,76 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "7df1040c-3bd4-4074-9876-02788aa0bea0": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--17392169517341__7df1040c-3bd4-4074-9876-02788aa0bea0-16734019696e14cdd7-0": {
+          "type": "slide",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "image": "shopify:\/\/shop_images\/SLIDE1.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "top-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "text": {
-          "type": "text",
+        "template--17392169517341__7df1040c-3bd4-4074-9876-02788aa0bea0-16734019696e14cdd7-1": {
+          "type": "slide",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "image": "shopify:\/\/shop_images\/Slide2.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "button": {
-          "type": "buttons",
+        "45e779b4-2fd9-457b-ac26-42194ab6c636": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/SLIDE_3.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "template--17392169517341__7df1040c-3bd4-4074-9876-02788aa0bea0-16734019696e14cdd7-0",
+        "template--17392169517341__7df1040c-3bd4-4074-9876-02788aa0bea0-16734019696e14cdd7-1",
+        "45e779b4-2fd9-457b-ac26-42194ab6c636"
       ],
       "settings": {
-        "image": "{{ shop.brand.cover_image }}",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "rich_text": {
@@ -54,34 +79,27 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "heading": "<p>ĐẶC QUYỀN CỦA BẠN HÔM NAY<\/p>",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "heading"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "ÁO KHOÁC JACKET",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -212,7 +230,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "7df1040c-3bd4-4074-9876-02788aa0bea0",
     "rich_text",
     "featured_collection",
     "collage",
