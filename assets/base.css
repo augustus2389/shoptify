@@ -991,6 +991,8 @@ summary::-webkit-details-marker {
 
 .title-wrapper--no-top-margin > .title {
   margin-top: 0;
+  color: #4a4a4a;
+    font-weight: 600;
 }
 
 .subtitle {
