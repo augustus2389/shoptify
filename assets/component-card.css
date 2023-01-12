@@ -2,9 +2,13 @@
   color: inherit;
   height: 100%;
   position: relative;
+  transition: all 0.3s linear;
   text-decoration: none;
 }
+.card-wrapper:hover .quick-add {
+  display: block;
 
+}
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);
