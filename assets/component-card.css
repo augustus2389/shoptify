@@ -2,7 +2,6 @@
   color: inherit;
   height: 100%;
   position: relative;
-  transition: all 0.3s linear;
   text-decoration: none;
 }
 .card-wrapper:hover .quick-add {
@@ -48,7 +47,7 @@
 .card--standard .card__inner {
   position: relative;
   box-sizing: border-box;
-  aspect-ratio: 9 / 10;
+  aspect-ratio: 9 / 12;
   border-radius: var(--border-radius);
   border: var(--border-width) solid rgba(var(--color-foreground), var(--border-opacity));
 }
