@@ -105,14 +105,14 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
-    "social_tiktok_link": "",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "social_tiktok_link": "https:\/\/tiktok.com\/@shopify",
     "social_tumblr_link": "",
-    "social_snapchat_link": "",
-    "social_youtube_link": "",
+    "social_snapchat_link": "https:\/\/www.snapchat.com\/add\/shopify",
+    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
@@ -147,41 +147,49 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
+          "9ec75ceb-74d3-4d28-af1e-dd4f8ad6a640": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Về Degrey",
+              "subtext": "<p>Cái tên Degrey được tạo ra rất ngẫu hứng, xuất phát từ “Chuỗi ngày u buồn về sự nghiệp, tương lai trong quá khứ của chính mình” – theo lời chia sẻ của Degrey’s founder.<\/p>"
+            }
+          },
+          "279d4f75-83de-413b-8aa9-3093daabe01f": {
+            "type": "text",
+            "settings": {
+              "heading": "Địa chỉ",
+              "subtext": "<p><strong>Sài Gòn: <\/strong>43 Huỳnh Văn Bánh P.17 Q.Phú Nhuận 905 Luỹ Bán Bích P.Tân Thành Q.Tân Phú 26 Lý Tự Trọng Q.1 - The New Playground<\/p><p><strong>Đà Lạt: <\/strong>11 Khu Hoà Bình P.1<\/p><p><strong>Điện thoại:<\/strong> 0336311117<\/p><p><strong>Email:<\/strong> degrey.vn@gmail.com<\/p>"
+            }
+          },
+          "1e0df526-1b5d-48e5-a5ce-764a8802e4ed": {
+            "type": "text",
+            "settings": {
+              "heading": "Hỗ trợ khách hàng",
+              "subtext": "<p>Shop<\/p><p>Hướng dẫn đặt hàng<\/p><p>Chính xác và quy định<\/p><p>Chính sách bảo mật<\/p><p>Thông tin sở hữa<\/p>"
+            }
+          },
+          "da7f0841-2dc8-4331-83c6-9a30a011f4c9": {
+            "type": "text",
+            "settings": {
+              "heading": "Chăm sóc khách hàng",
+              "subtext": "<p><span style=\"text-decoration:underline\">degrey.vn@gmail.com<\/span><\/p><p>Follow Us<\/p>"
             }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
+          "9ec75ceb-74d3-4d28-af1e-dd4f8ad6a640",
+          "279d4f75-83de-413b-8aa9-3093daabe01f",
+          "1e0df526-1b5d-48e5-a5ce-764a8802e4ed",
+          "da7f0841-2dc8-4331-83c6-9a30a011f4c9"
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "payment_enable": true,
+          "payment_enable": false,
           "margin_top": 48,
           "padding_top": 36,
           "padding_bottom": 36

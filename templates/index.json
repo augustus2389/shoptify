@@ -136,7 +136,7 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection": {
+    "8d79de61-1ce3-4c46-a64d-173a4b4aaa72": {
       "type": "featured-collection",
       "settings": {
         "title": "ÁO KHOÁC | JACKET",
@@ -163,62 +163,64 @@
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
+    "featured_collection": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "Multimedia collage",
+        "title": "ÁO THUN | TSHIRT",
         "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bộ-sưu-tập-ao-thun",
+        "products_to_show": 10,
+        "columns_desktop": 5,
         "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "padding_top": 36,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
+    "86ce5932-7626-43a4-8e72-9c27c05b0ff3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "PHỤ KIỆN | ACCESSORY",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "phụ-kiện",
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "21a5b58c-b29e-4d48-82e6-e2427d376fa5": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
+        "template--17392169517341__21a5b58c-b29e-4d48-82e6-e2427d376fa5-1673432985c4a9cdad-0": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -227,7 +229,7 @@
             "link": ""
           }
         },
-        "column2": {
+        "template--17392169517341__21a5b58c-b29e-4d48-82e6-e2427d376fa5-1673432985c4a9cdad-1": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -236,7 +238,7 @@
             "link": ""
           }
         },
-        "column3": {
+        "template--17392169517341__21a5b58c-b29e-4d48-82e6-e2427d376fa5-1673432985c4a9cdad-2": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -247,19 +249,19 @@
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "template--17392169517341__21a5b58c-b29e-4d48-82e6-e2427d376fa5-1673432985c4a9cdad-0",
+        "template--17392169517341__21a5b58c-b29e-4d48-82e6-e2427d376fa5-1673432985c4a9cdad-1",
+        "template--17392169517341__21a5b58c-b29e-4d48-82e6-e2427d376fa5-1673432985c4a9cdad-2"
       ],
       "settings": {
-        "title": "",
+        "title": "Multicolumn",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
@@ -272,9 +274,9 @@
   "order": [
     "7df1040c-3bd4-4074-9876-02788aa0bea0",
     "9c9277c0-d784-4729-ad4f-0919cf680aae",
+    "8d79de61-1ce3-4c46-a64d-173a4b4aaa72",
     "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "86ce5932-7626-43a4-8e72-9c27c05b0ff3",
+    "21a5b58c-b29e-4d48-82e6-e2427d376fa5"
   ]
 }

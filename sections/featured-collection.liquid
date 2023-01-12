@@ -125,21 +125,16 @@
         </div>
       {%- endif -%}
     </slider-component>
-    <div class="button-more">
-      <button class="more-btn btn2">
-        <a href="#">xem thêm sản phẩm</a>
-      </button>
-    </div>
+    {% comment %} Custom button view more {% endcomment %}
     {%- if section.settings.show_view_all and more_in_collection -%}
-      <div class="center collection__view-all">
-        <a
-          href="{{ section.settings.collection.url }}"
-          class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"
-          aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}">
-          {{ 'sections.featured_collection.view_all' | t }}
-        </a>
+      <div class="button-more">
+        <button class="more-btn btn2">
+          <a href="{{ section.settings.collection.url }}" aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}">xem thêm sản phẩm</a>
+        </button>
       </div>
     {%- endif -%}
+
+
   </div>
 </div>
 
